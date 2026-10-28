@@ -21,7 +21,7 @@ def calculator(a,b,operator):
         return multiply(a, b)
 
     elif operator == '/':
-        if n2 == 0:
+        if и == 0:
             return 'Error: division by zero'
         else:
             return divide(a, b)
